@@ -1,0 +1,33 @@
+/* CSS file for fileUpload Page */
+#opt{
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 16px;  
+}
+#intro{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+input[type=radio]{
+	 border-radius: 14px;
+}
+
+.h-divider{
+	 margin-top:5px;
+	 margin-bottom:5px;
+	 height:1px;
+	 width:100%;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #80ffff;
+  text-align: center;
+}

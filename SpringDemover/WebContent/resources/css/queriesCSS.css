@@ -1,0 +1,86 @@
+/* CSS file for queries Page - page for SQL QUERY results and creating filter */
+body{
+	    font-family:sans-serif;
+        font-size: 17px;
+}
+#intro{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+}
+#top{
+	margin: 10px 10px 10px 0px;
+}
+
+.thead-inverse th, #centerAll{
+	text-align: center;
+}
+
+.thead-inverse th {
+    text-transform:capitalize;
+}
+
+ #myResults, #filterSelection{
+ 	font-size: 18px; 
+ 	padding: 0 0.5em  0 0.5em;
+ }
+
+.dataTables_filter input, .dataTables_length select, .dataTables_filter, .dataTables_length, .dataTables_info, .dataTables_paginate{
+	font-size: 16px; 
+}
+ 
+#myFormResults{
+ 	font-size: 16px; 
+ 	padding: 0 0.5em  0 0.5em;
+ }
+ 
+#formResult{
+	background-color: white;
+ }
+ 
+#inputColumn{
+	font-size: 14px;
+ }
+ 
+tfoot input {
+	font-size: 14px;
+    width: 100%;
+    padding: 3px;
+    box-sizing: border-box;
+    opacity: 0.6;
+}
+
+#tableSelection{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;  
+}
+
+#opt, #operators, #condition{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 16px;  
+}
+
+input[type=radio]{
+	 border-radius: 14px;
+}
+#listInfo{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+#listInfo li{
+  padding: 5px;	
+}
+ .footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.1rem;
+  background-color: #80ffff;
+  text-align: center;
+}
